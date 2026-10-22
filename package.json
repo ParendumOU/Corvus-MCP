@@ -1,0 +1,31 @@
+{
+  "name": "corvus-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP connector for the Corvus AI browser: lets Claude Code, Claude Desktop, Cursor, VS Code and other MCP clients drive Corvus.",
+  "license": "MIT",
+  "author": "Parendum <info@parendum.com>",
+  "homepage": "https://corvus.parendum.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParendumOU/Corvus-MCP.git"
+  },
+  "type": "module",
+  "bin": {
+    "corvus-mcp": "mcp/corvus-mcp-stdio.mjs"
+  },
+  "files": [
+    "mcp"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "browser",
+    "corvus",
+    "claude",
+    "automation"
+  ]
+}
